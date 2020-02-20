@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head></head>
+<body>
+<h1>サインページ</h1>
+<h2>ユーザーの新規登録</h2>
+
+<form action = "#" wicket:id="makeUserForm">
+    <div>新規ユーザー名:<input type="text" wicket:id="newUserName"/></div>
+    <div>新規パスワード:<input type="password" wicket:id="newPassWord"/></div>
+    <div>
+        <button type="submit">送信</button>
+    </div>
+</form>
+
+<h2>ログイン</h2>
+
+<form action = "#" wicket:id="signUserForm">
+    <div>あなたの名前:<input type="text" wicket:id="signUserName"/></div>
+    <div>あなたのパスワード:<input type="password" wicket:id="signPassWord"/></div>
+    <div>
+        <button type="submit">送信</button>
+    </div>
+</form>
+
+</body>
+</html>
